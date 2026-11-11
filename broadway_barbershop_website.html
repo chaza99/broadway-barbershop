@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Broadway Barbershop Sydney in Ultimo. Haircuts, fades and beard grooming near Broadway Shopping Centre.">
+<title>Broadway Barbershop Sydney | Sharp Cuts. Good Service.</title>
+<style>
+:root{--bg:#101110;--panel:#191c19;--cream:#f5f0e7;--muted:#b7b8af;--lime:#c8f169;--line:#343a31}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif;line-height:1.6}
+a{color:inherit;text-decoration:none}.wrap{width:min(1120px,90%);margin:auto}
+header{position:sticky;top:0;z-index:10;background:rgba(16,17,16,.92);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav{height:76px;display:flex;align-items:center;justify-content:space-between;gap:20px}
+.logo{font-weight:900;letter-spacing:1px;font-size:17px}.logo span{color:var(--lime)}
+.navlinks{display:flex;gap:25px;color:var(--muted);font-size:14px}.navlinks a:hover{color:var(--lime)}
+.btn{display:inline-block;padding:13px 20px;background:var(--lime);color:#12150d;font-weight:800;border-radius:4px;transition:.2s}.btn:hover{transform:translateY(-2px);filter:brightness(1.06)}
+.btn.outline{background:transparent;color:var(--cream);border:1px solid #68705d}
+.hero{padding:92px 0 80px;position:relative;overflow:hidden;background:radial-gradient(ellipse at 82% 40%,#38462b 0,transparent 34%),linear-gradient(120deg,#101110 40%,#1c2119)}
+.hero:after{content:"";position:absolute;width:410px;height:410px;border:1px solid #778a4c55;border-radius:50%;right:7%;top:45px;box-shadow:0 0 0 35px #778a4c0d,0 0 0 70px #778a4c0a}
+.hero-inner{position:relative;z-index:1;max-width:720px}.eyebrow{color:var(--lime);font-size:12px;font-weight:800;letter-spacing:3px;text-transform:uppercase}
+h1{font-size:clamp(48px,8vw,88px);line-height:.98;letter-spacing:-4px;margin:20px 0 24px;text-transform:uppercase}h1 em{font-style:normal;color:var(--lime)}
+.hero p{max-width:540px;color:var(--muted);font-size:18px;margin-bottom:30px}.actions{display:flex;gap:12px;flex-wrap:wrap}
+.hero-note{margin-top:42px;color:#c9cabe;font-size:13px;letter-spacing:1px}
+section{padding:82px 0}.section-top{display:flex;align-items:end;justify-content:space-between;gap:25px;margin-bottom:34px}
+h2{font-size:clamp(32px,5vw,48px);line-height:1.05;letter-spacing:-1.5px;margin:10px 0}.section-top p{max-width:390px;color:var(--muted);margin:0}
+.services{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}
+.card{background:var(--panel);border:1px solid var(--line);padding:27px;min-height:210px;border-radius:7px}
+.number{color:var(--lime);font-size:12px;font-weight:800;letter-spacing:2px}.card h3{font-size:22px;margin:24px 0 8px}.card p{color:var(--muted);margin:0;font-size:14px}
+.band{background:var(--lime);color:#141710;padding:38px 0}.band-inner{display:flex;justify-content:space-between;align-items:center;gap:20px}.band h2{font-size:clamp(27px,4vw,40px);margin:0}.band .btn{background:#141710;color:var(--lime);border:1px solid #141710}
+.about-grid{display:grid;grid-template-columns:1fr 1fr;gap:50px;align-items:center}.about-visual{min-height:360px;border-radius:8px;background:linear-gradient(145deg,#303d28,#141713 65%);border:1px solid #526143;display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+.about-visual:before,.about-visual:after{content:"";position:absolute;border:1px solid #c8f16955;border-radius:50%;width:250px;height:250px}.about-visual:after{width:330px;height:330px}
+.mark{font-size:78px;font-weight:900;letter-spacing:-8px;color:var(--lime);z-index:1}.about-copy p{color:var(--muted)}
+.features{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:25px}.feature{border-top:1px solid var(--line);padding-top:13px;font-weight:700}.feature span{color:var(--lime);margin-right:8px}
+.info{background:#151815}.info-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.info-card{background:var(--panel);border:1px solid var(--line);padding:28px;border-radius:7px}.info-card h3{margin:0 0 18px;font-size:22px}.info-card p,.info-card li{color:var(--muted)}.hours{list-style:none;padding:0;margin:0}.hours li{display:flex;justify-content:space-between;border-bottom:1px solid var(--line);padding:8px 0;gap:12px}.hours li:last-child{border:0}.small{font-size:12px;color:var(--muted)}
+.contact-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+footer{padding:28px 0;border-top:1px solid var(--line);color:var(--muted);font-size:13px}.foot{display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+@media(max-width:760px){.navlinks{display:none}.hero{padding:70px 0}.services{grid-template-columns:1fr}.section-top,.band-inner{align-items:flex-start;flex-direction:column}.about-grid,.info-grid{grid-template-columns:1fr}.about-visual{min-height:260px}h1{letter-spacing:-2px}}
+</style>
+</head>
+<body>
+<header><div class="wrap"><nav>
+  <a class="logo" href="#">BROADWAY <span>BARBERSHOP</span></a>
+  <div class="navlinks"><a href="#services">Services</a><a href="#about">About</a><a href="#visit">Find us</a></div>
+  <a class="btn" href="tel:+61285931057">Call the shop</a>
+</nav></div></header>
+
+<main>
+<section class="hero"><div class="wrap"><div class="hero-inner">
+  <div class="eyebrow">Ultimo · Sydney</div>
+  <h1>Sharp cuts.<br><em>Good service.</em></h1>
+  <p>Freshen up with a clean haircut, a sharp fade or a tidy beard trim. Find us just outside Broadway Shopping Centre.</p>
+  <div class="actions"><a class="btn" href="tel:+61285931057">Call (02) 8593 1057</a><a class="btn outline" href="#services">Explore services</a></div>
+  <div class="hero-note">GOOD CUTS · FRIENDLY SERVICE · CONVENIENT LOCATION</div>
+</div></div></section>
+
+<section id="services"><div class="wrap">
+  <div class="section-top"><div><div class="eyebrow">What we do</div><h2>THE FRESH<br>TRIM-UP.</h2></div><p>From a tidy-up to a new look, tell your barber what you have in mind and they can help you work out the style.</p></div>
+  <div class="services">
+    <article class="card"><div class="number">01 / HAIRCUTS</div><h3>Classic & modern cuts</h3><p>Everyday haircuts, scissor work and styling to suit the look you want.</p></article>
+    <article class="card"><div class="number">02 / FADES</div><h3>Fades & line-ups</h3><p>Clean fades and sharp finishing details, with a chance to check the style as you go.</p></article>
+    <article class="card"><div class="number">03 / BEARD</div><h3>Beard trims</h3><p>Beard tidy-ups, shaping and clean edges to finish your look.</p></article>
+  </div>
+  <p class="small" style="margin-top:16px">Service descriptions are a website draft based on publicly listed services. Please confirm available services and prices with the shop.</p>
+</div></section>
+
+<div class="band"><div class="wrap band-inner"><h2>Ready for a fresh cut?</h2><a class="btn" href="tel:+61285931057">Give us a call ↗</a></div></div>
+
+<section id="about"><div class="wrap about-grid">
+  <div class="about-visual"><div class="mark">BB.</div></div>
+  <div class="about-copy"><div class="eyebrow">The barbershop</div><h2>YOUR LOCAL<br>ULTIMO BARBER.</h2>
+    <p>Broadway Barbershop Sydney is located just outside Broadway Shopping Centre. It is a convenient stop for people around Ultimo, Glebe, the university area and the city.</p>
+    <p>Customers often highlight the attention to detail, friendly service and relaxed atmosphere. Bring a reference photo or explain the cut you want so your barber knows what you’re after.</p>
+    <div class="features"><div class="feature"><span>✦</span> Detail-focused cuts</div><div class="feature"><span>✦</span> Friendly service</div><div class="feature"><span>✦</span> Easy-to-find location</div><div class="feature"><span>✦</span> Hair & beard grooming</div></div>
+  </div>
+</div></section>
+
+<section class="info" id="visit"><div class="wrap">
+  <div class="section-top"><div><div class="eyebrow">Come by</div><h2>FIND THE SHOP.</h2></div><p>Just outside Broadway Shopping Centre in Ultimo. Call ahead to check current availability before making the trip.</p></div>
+  <div class="info-grid">
+    <div class="info-card"><h3>Location & contact</h3>
+      <p><strong>Broadway Barbershop Sydney</strong><br>Unit 13a, 185–211 Broadway<br>Ultimo NSW 2000, Australia</p>
+      <p><strong>Phone:</strong> <a href="tel:+61285931057">(02) 8593 1057</a></p>
+      <div class="contact-row"><a class="btn" href="tel:+61285931057">Call now</a><a class="btn outline" href="https://www.google.com/maps/search/?api=1&query=Unit+13a+185-211+Broadway+Ultimo+NSW+2000" target="_blank" rel="noopener">Get directions</a></div>
+    </div>
+    <div class="info-card"><h3>Opening hours</h3>
+      <ul class="hours">
+        <li><span>Monday – Friday</span><strong>8:30 am – 6:00 pm</strong></li>
+        <li><span>Saturday</span><strong>8:30 am – 5:00 pm</strong></li>
+        <li><span>Sunday</span><strong>Check with the shop</strong></li>
+      </ul>
+      <p class="small">Hours can change. Please call to confirm before visiting.</p>
+    </div>
+  </div>
+</div></section>
+
+<section><div class="wrap" style="text-align:center;max-width:700px"><div class="eyebrow">Got a question?</div><h2>LET’S GET YOU SORTED.</h2><p style="color:var(--muted)">Want to check a price, ask about a particular cut or find out how busy the shop is? Give the team a call.</p><a class="btn" href="tel:+61285931057">Call (02) 8593 1057</a></div></section>
+</main>
+
+<footer><div class="wrap foot"><div><strong>BROADWAY BARBERSHOP SYDNEY</strong><br><span class="small">Website concept / demonstration design</span></div><div>Ultimo, NSW · <a href="tel:+61285931057">(02) 8593 1057</a></div></div></footer>
+</body>
+</html>
